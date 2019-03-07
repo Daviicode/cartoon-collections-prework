@@ -18,7 +18,7 @@ def long_planeteer_calls(element)
   # code an argument here
   # Your code here
   answer = false
-  long_planteer_calls.each do |call|
+  element.each do |call|
     if call.length > 4
       answer = true
     end
