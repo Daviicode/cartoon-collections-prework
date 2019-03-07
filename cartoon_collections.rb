@@ -14,11 +14,11 @@ def summon_captain_planet(planeteer_calls)
   end
 end
 
-def long_planeteer_calls(element)
+def long_planeteer_calls(long_planeteer_calls)
   # code an argument here
   # Your code here
   answer = false
-  element.each do |call|
+  long_planeteer_calls.each do |call|
     if call.length > 4
       answer = true
     end
